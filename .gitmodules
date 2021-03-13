@@ -1,0 +1,10 @@
+[submodule "tinyusb"]
+	path = tinyusb
+	url = https://github.com/raspberrypi/tinyusb.git
+	branch = pico
+[submodule "pico-sdk"]
+	path = pico-sdk
+	url = https://github.com/raspberrypi/pico-sdk.git
+[submodule "lwip"]
+	path = lwip
+	url = https://git.savannah.nongnu.org/git/lwip.git
