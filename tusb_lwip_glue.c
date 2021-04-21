@@ -208,7 +208,7 @@ void wait_for_netif_is_up()
 
 
 /* lwip platform specific routines for Pico */
-static mutex_t lwip_mutex;
+auto_init_mutex(lwip_mutex);
 static int lwip_mutex_count = 0;
 
 sys_prot_t sys_arch_protect(void)
